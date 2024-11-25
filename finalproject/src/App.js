@@ -2,6 +2,7 @@ import { CurrentDate, Welcome } from './Components/1';
 import './App.css';
 import ListHob from './Components/2';
 import Profile from './Components/4';
+import MapDisp from './Components/5';
 
 function App() {
   return (
@@ -13,7 +14,10 @@ function App() {
         <div>
           <Profile name="Manzi Audace" age={23} email="mmaudace@gmail.com"/>
           <Profile name="Jane Smith" age={25} email="Janes@gmail.com" />
-          </div>     
+          </div>  
+          <div>
+          <MapDisp />  
+            </div>   
       </header>
       
     </div>
