@@ -6,7 +6,7 @@ function Welcome(){
     );
 }
 function CurrentDate(){
-    let a = Date();
+    let a = new Date().toLocaleString;
     return (
         <p>Current date is: {a}</p>
     )
