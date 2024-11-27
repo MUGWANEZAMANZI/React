@@ -5,7 +5,7 @@ function ListHob(){
     
     const a = ["Dancing", "singing", "Reading"];
     return (
-        <div>
+        <div className="m-4">
             <h1>My hobies</h1>
             <ol>
             { a.map((hobby,index) => ( <DisplayHob key={index} hobby={hobby} /> 
@@ -17,6 +17,6 @@ function ListHob(){
 
 
 function DisplayHob(props){
-        return <li>{props.hobby}</li>;
+        return <li className="m-4">{props.hobby}</li>;
     }
 export default ListHob;

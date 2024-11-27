@@ -1,10 +1,6 @@
-import { CurrentDate, Welcome } from './Components/1';
 import './App.css';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import ListHob from './Components/2';
-import Profile from './Components/4';
-import MapDisp from './Components/5';
 import Layout from './Pages/Layout';
 import Memo from './Pages/Memo';
 import Events from './Pages/Events';
