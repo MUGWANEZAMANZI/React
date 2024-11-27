@@ -6,9 +6,9 @@ function Welcome(){
     );
 }
 function CurrentDate(){
-    let a = new Date().toLocaleString;
+    
     return (
-        <p>Current date is: {a}</p>
+        <p>Current date is: {Date()}</p>
     )
 }
 export {CurrentDate, Welcome};
