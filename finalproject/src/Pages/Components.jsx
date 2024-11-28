@@ -18,7 +18,7 @@ const Components = () =>{
           <Profile name="Jane Smith" age={25} email="Janes@gmail.com" />
           </div>  
           <div>
-          <MapDisp />  
+          <MapDisp /> 
             </div> 
             </>
     );
