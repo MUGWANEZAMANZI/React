@@ -1,7 +1,7 @@
 import React from "react";
 
 function Profile({name,age,email}){
-    return (<div>
+    return (<div className="m-4">
         <h1>Profile Card</h1>
         <div>
             <p><strong>Name:</strong> {name}</p>
