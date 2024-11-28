@@ -1,7 +1,6 @@
 import './App.css';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-main
 import Layout from './Pages/Layout';
 import Memo from './Pages/Memo';
 import Events from './Pages/Events';
