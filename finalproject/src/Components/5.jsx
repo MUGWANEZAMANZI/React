@@ -4,7 +4,7 @@ function MapDisp() {
   const b = ["Mugabo", "Mugwaneza", "Mfitumurengezi"];
 
   return (
-    <div>
+    <div className="m-4">
       <h1>Displaying using map</h1>
       <ol>
         {/* Use map to render each name in a <li> */}
