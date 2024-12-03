@@ -1,4 +1,9 @@
+
 const Routing = () => {
-    return <h1>Routing</h1>;
-};
+    return (
+            <div>
+            <p>Routing goes here..</p>
+            </div>
+    );
+}
 export default Routing;

@@ -7,11 +7,8 @@ import Events from './Pages/Events';
 import Registration from './Pages/Registration';
 import Routing from './Pages/Routing';
 import Form from './Pages/Form';
+mugwaneza
 import Commponents from './Pages/Components' 
-
-
-
-
 function App() {
   return (
     <div className="App">
@@ -34,7 +31,10 @@ function App() {
       
     </div>
   );
+
 }
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
 export default App;
+
