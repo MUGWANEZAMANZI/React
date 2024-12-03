@@ -1,4 +1,13 @@
-const Registration = () => {
-    return <h1>Registration</h1>;
-};
+import { StudentForm, LecturerForm } from "../Registration/RegistrionForms";    
+
+function Registration(){
+
+    return (
+        <>
+            <StudentForm/>
+            <LecturerForm/>
+        </>
+    )
+}
+
 export default Registration;
