@@ -7,7 +7,7 @@ import Events from './Pages/Events';
 import Registration from './Pages/Registration';
 import Routing from './Pages/Routing';
 import Form from './Pages/Form';
-import Commponents from './Pages/Components'
+import Commponents from './Pages/Components' 
 
 
 
@@ -28,6 +28,7 @@ function App() {
 
         </Routes>
       </BrowserRouter>
+  
           
       </header>
       

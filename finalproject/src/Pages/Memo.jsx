@@ -1,4 +1,18 @@
-const Memo = () => {
-    return <h1>Memos goes here...</h1>;
-};
-export default Memo;
+import React from 'react';
+import { ParentComponent, Counter, TodoList, LiveTime} from '../Memo/MemoComponents'
+
+
+ function Memo(){
+
+    return (
+        <>
+        <ParentComponent/>
+        <Counter/>
+        <TodoList/>
+        <LiveTime/>
+        </>
+    )
+ }   
+
+ export default Memo;
+    
