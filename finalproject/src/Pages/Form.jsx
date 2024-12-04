@@ -8,16 +8,17 @@ import BackButton from "./back";
 
 function Forms() {
     return (
-       
-        <div style={{ textAlign: "center", padding: "20px", background: "#ff7364" }}>
-             <BackButton/>
-            <h1>Forms Page</h1>
-            <LoginForm />
-            <ControlledForm />
-            <LoginFormWithValidation />
-            <FormContainer />
-            <CheckboxForm /> {/* Added CheckboxForm component */}
-        </div>
+        <>
+            <BackButton />
+            <div className="Form">
+                <h1>Forms Page</h1>
+                <LoginForm />
+                <ControlledForm />
+                <LoginFormWithValidation />
+                <FormContainer />
+                <CheckboxForm /> {/* Added CheckboxForm component */}
+            </div>
+        </>
     );
 }
 

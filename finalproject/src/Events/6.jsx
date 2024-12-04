@@ -7,7 +7,7 @@ function States(){
         
         <>
             <h2>Hi! Am :{color}</h2>
-            <button className="bg-red-500 rounded-md" type="button" onClick={() => setColor("Iddle")}>Change state</button>
+            <button type="button" onClick={() => setColor("Iddle")}>Change state</button>
         </>
     );
 

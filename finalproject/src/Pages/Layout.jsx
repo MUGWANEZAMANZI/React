@@ -6,7 +6,7 @@ function Layout() {
 
       {/* Navigation Bar */}
       <nav>
-        <ul>
+        <ul className="Layout">
           <li>
             <Link to="/">Home</Link>
           </li>

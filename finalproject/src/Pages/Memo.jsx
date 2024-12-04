@@ -5,13 +5,13 @@ import BackButton from './back';
  function Memo(){
 
     return (
-        <>
+        <div className='Memo'>
         <BackButton/>
         <ParentComponent/>
         <Counter/>
         <TodoList/>
         <LiveTime/>
-        </>
+        </div>
     )
  }   
 
