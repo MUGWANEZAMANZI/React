@@ -5,14 +5,16 @@ import BackButton from './back';
  function Memo(){
 
     return (
-        <div className='Memo'>
+        <>
         <BackButton/>
+        <div className='Memo'>
         <ParentComponent/>
         <Counter/>
         <TodoList/>
         <LiveTime/>
         </div>
-    )
+        </>
+    );
  }   
 
  export default Memo;
