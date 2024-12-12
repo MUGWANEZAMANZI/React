@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 function Welcome() {
     return (
-        <p className="m-4">Welcome to the final Project Page1</p>
+        <p>Welcome to the final Project Page1</p>
     );
 }
 
@@ -12,14 +12,12 @@ function CurrentDate() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentDate(new Date());
-        }, 1000); // Updates every second
-
-        // Cleanup interval on component unmount
+        }, 1000);
         return () => clearInterval(interval);
     }, []);
 
     return (
-        <p className="m-4">Current date is: {currentDate.toString()}</p>
+        <p>Current date is: {currentDate.toString()}</p>
     );
 }
 

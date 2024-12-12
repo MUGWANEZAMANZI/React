@@ -1,5 +1,5 @@
 import React from 'react';
-import { ParentComponent, Counter, TodoList, LiveTime} from '../Memo/MemoComponents'
+import { ParentComponent, Counter, TodoList, LiveTime, HeavyCalculation} from '../Memo/MemoComponents'
 import BackButton from './back';
 
  function Memo(){
@@ -10,6 +10,7 @@ import BackButton from './back';
         <div className='Memo'>
         <ParentComponent/>
         <Counter/>
+        <HeavyCalculation/>
         <TodoList/>
         <LiveTime/>
         </div>

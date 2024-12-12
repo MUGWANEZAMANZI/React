@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 // 21. Parent component passing prop to a child with React.memo
-const ChildComponent = React.memo(({ name }) => {
+function ChildComponent (props){
   console.log('Child rendered');
-  return <div>Child Component: {name}</div>;
-});
+  return <div>Child Component: {props.name}</div>;
+};
 
 export function ParentComponent() {
   const [name, setName] = useState('John');

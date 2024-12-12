@@ -7,7 +7,6 @@ function Menu() {
     return (
         <nav>
             <ul>
-                {/* School of ICT Menu */}
                 <li>
                     <button
                         onClick={() => setShowICT(!showICT)}
@@ -23,8 +22,6 @@ function Menu() {
                         </ul>
                     )}
                 </li>
-
-                {/* School of Science Menu */}
                 <li>
                     <button
                         onClick={() => setShowScience(!showScience)}

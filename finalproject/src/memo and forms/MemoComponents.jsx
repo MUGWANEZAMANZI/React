@@ -50,7 +50,7 @@ export const HeavyCalculation = React.memo(() => {
 
   return (
     <div>
-      <h1>Heavy Calculation</h1>
+      <h1>Heavy Calculation.</h1>
       <p>Calculation Result: {calculate()}</p>
     </div>
   );

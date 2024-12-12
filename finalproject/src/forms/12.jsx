@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 
 const ControlledForm = () => {
-    // State to manage the input field
     const [inputValue, setInputValue] = useState('');
-
-    // Handle changes to the input field
     const handleChange = (e) => {
         setInputValue(e.target.value);
     };
