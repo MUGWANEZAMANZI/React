@@ -7,12 +7,14 @@ import BackButton from './back';
     return (
         <>
         <BackButton/>
+        <div className='Memo'>
         <ParentComponent/>
         <Counter/>
         <TodoList/>
         <LiveTime/>
+        </div>
         </>
-    )
+    );
  }   
 
  export default Memo;

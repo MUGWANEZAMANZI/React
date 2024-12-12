@@ -19,7 +19,7 @@ function CheckboxForm() {
   };
 
   return (
-    <div style={{ textAlign: "center", padding: "20px" }}>
+    <div>
       <h2>Checkbox Form</h2>
       <form>
         {options.map((option, index) => (

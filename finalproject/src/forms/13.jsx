@@ -53,41 +53,37 @@ const LoginFormWithValidation = () => {
     };
 
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100vh', background: '#f5f5f5', padding: '20px' }}>
+        <div >
             <form 
-                onSubmit={handleSubmit}
-                style={{ padding: '20px', background: '#fff', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', width: '100%', maxWidth: '400px' }}>
-                <h2 style={{ textAlign: 'center', marginBottom: '20px' }}>Login Form</h2>
+                onSubmit={handleSubmit}>
+                <h2>Login Form</h2>
 
                 <div style={{ marginBottom: '20px' }}>
-                    <label htmlFor="email" style={{ display: 'block', marginBottom: '5px' }}>Email:</label>
+                    <label htmlFor="email">Email:</label>
                     <input
                         type="email"
                         id="email"
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        style={{ width: '100%', padding: '10px', border: '1px solid #ccc', borderRadius: '4px', color: 'black' }}
                     />
-                    {errors.email && <p style={{ color: 'red', fontSize: '12px' }}>{errors.email}</p>}
+                    {errors.email && <p>{errors.email}</p>}
                 </div>
 
                 <div style={{ marginBottom: '20px' }}>
-                    <label htmlFor="password" style={{ display: 'block', marginBottom: '5px' }}>Password:</label>
+                    <label htmlFor="password" >Password:</label>
                     <input
                         type="password"
                         id="password"
                         name="password"
                         value={formData.password}
                         onChange={handleChange}
-                        style={{ width: '100%', padding: '10px', border: '1px solid #ccc', borderRadius: '4px', color: 'black' }}
                     />
-                    {errors.password && <p style={{ color: 'red', fontSize: '12px' }}>{errors.password}</p>}
+                    {errors.password && <p>{errors.password}</p>}
                 </div>
 
                 <button
                     type="submit"
-                    style={{ width: '100%', padding: '10px', background: '#007BFF', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer' }}
                 >
                     Submit
                 </button>

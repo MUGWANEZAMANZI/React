@@ -3,12 +3,10 @@ import { useState } from "react";
 function NamesLog() {
     const [fullname, setName] = useState("");
     const [age, setAge] = useState("");
-
-    // Declare function properly with 'const' or 'function' keyword
     const ConsoleT = (e) => {
         e.preventDefault();
         const data = { fullname, age };
-        console.log("Submitted data", JSON.stringify(data)); // Use console.log instead of console.Log
+        console.log("Submitted data", JSON.stringify(data));
         setAge("");
         setName("");
     };
@@ -19,7 +17,7 @@ function NamesLog() {
                 <label>
                     Full Names:{" "}
                     <input
-                    className="text-black"
+                        className="text-black"
                         type="text"
                         value={fullname}
                         onChange={(e) => setName(e.target.value)}
@@ -28,7 +26,7 @@ function NamesLog() {
                 <label>
                     Age:{" "}
                     <input
-                    className="text-black"
+                        className="text-black"
                         type="date"
                         value={age}
                         onChange={(e) => setAge(e.target.value)}

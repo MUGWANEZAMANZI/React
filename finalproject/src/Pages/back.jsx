@@ -1,4 +1,3 @@
-// BackButton.js
 import { useNavigate } from 'react-router-dom';
 
 function BackButton() {
@@ -8,7 +7,14 @@ function BackButton() {
     navigate(-1); // Go back to the previous page
   };
 
-  return <button className='bg-blue-400' onClick={handleBack}>Go Back</button>;
+  return (
+  <div className="Backhome" >
+    <p onClick={handleBack}>
+      <img src="back.png" alt="back button" className="Back" />
+    </p>
+    <p>Back Home</p>
+  </div>
+  );
 }
 
 export default BackButton;
