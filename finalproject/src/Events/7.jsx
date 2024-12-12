@@ -14,7 +14,6 @@ function Counter(){
                 setValue(inputVal);
             }
         };
-//console.log(value)
     return (
 
         <div>

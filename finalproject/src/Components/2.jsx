@@ -17,6 +17,6 @@ function ListHob(){
 
 
 function DisplayHob(props){
-        return <li className="m-4">{props.hobby}</li>;
+        return <li>{props.hobby}</li>;
     }
 export default ListHob;

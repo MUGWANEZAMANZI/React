@@ -121,10 +121,6 @@ input {
   background-color:inherit;
   border-bottom: solid #1b0909;
 }
-
-div:hover {
-  box-shadow: 34px 20 px 21px #bdbdbd;
-}
 .Backhome{
   background-image: none;
   border-radius: 12px;
@@ -140,4 +136,16 @@ div:hover {
 .Back{
   height: 3rem;
   width: 3rem;
+}
+.profile{
+  background-color: beige;
+  color:#03090e;
+  width: fit-content;
+  margin-left: 450px;
+  padding: 15px;
+  border-radius: 15px;
+
+}
+div:hover {
+  transform: scale(1.02);
 }

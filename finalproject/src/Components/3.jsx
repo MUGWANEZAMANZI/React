@@ -13,7 +13,7 @@ function ReuseBt({ text, color }) {
     const buttonClass = colorClasses[color] || colorClasses.primary;
 
     return (
-        <div className="m-4">
+        <div>
         <button
             className={`px-4 py-2 rounded-md ${buttonClass} focus:outline-none`}
         >
